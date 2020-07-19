@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE ADVANCED</title>
+    <!--bootsrap cdn  -->
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="icon.ico">
+
+
+    <!-- inline css -->
+    <style media="screen">
+      *{
+
+        box-sizing:border-box;
+      }
+      h2{
+        color:red;
+        padding:1.5%;
+        margin-left:3%;
+      }
+      ul{
+        list-style-type:none;
+        margin-top:5px;
+      }
+      a {
+    text-decoration: none !important;
+       }
+      ul li{
+        text-decoration:none;
+        display:inline-block;
+        padding:7px;
+
+      }
+      ul{
+        text-align: center;
+      }
+      .nav{
+       margin-left:10%;
+      }
+      input{
+        width:80%;
+      }
+      tr{
+        margin-top:5px;
+        padding: 1%;
+      }
+      td{
+        font-size:13px;
+      }
+      table{
+        margin-left:3%;
+      }
+      a:hover{
+        border-bottom: 2px solid blue;
+      }
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul style="text-align:right;" class="ml-auto">
+        <li><a class="all" href="index.html">ALL</a></li>
+        <li><a class="img" href="images.html">IMAGES</a></li>
+        <li><a class="advanced" href="advanced.html" style="border-bottom: 2px solid blue;">ADVANCED</a></li>
+        <li><a href="#"><font id="menu">&#9776</font></a></li>
+      </ul>
+    </div>
+
+    <h2>Advanced Search</h2>
+    <hr>
+
+    <div class="advanced">
+      <form  action="https://www.google.com/search" method="get" name="f">
+
+
+      <table>
+        <tr class="row">
+          <th class="col-lg-3 col-sm-6">Find pages with...</th>
+          <th class="col-lg-6 col-sm-6"></th>
+          <th class="col-lg-3 ">To do this in the search box.</th>
+        </tr>
+        <tr class="row">
+          <td class="col-lg-3 col-sm-6">
+            all these words:
+          </td>
+          <td class="col-lg-6 col-sm-6"><input type="text" name="as_q" value=""></td>
+          <td class="col-lg-3">Type the important words: tri-colour rat terrier</td>
+        </tr>
+
+        <tr class="row">
+          <td class="col-lg-3 col-sm-6">this exact word or phrase:</td>
+          <td class="col-lg-6 col-sm-6"><input type="text" name="as_epq" value=""></td>
+          <td class="col-lg-3">Put exact words in quotes: "rat terrier"</td>
+        </tr>
+
+        <tr class="row">
+          <td class="col-lg-3 col-sm-6">any of these words:</td>
+          <td class="col-lg-6 col-sm-6"><input type="text" name="as_oq" value=""></td>
+          <td class="col-lg-3">Type OR between all the words you want: miniature OR standard</td>
+        </tr>
+
+        <tr class="row">
+          <td class="col-lg-3 col-sm-6">none of these words</td>
+          <td class="col-lg-6 col-sm-6"><input type="text" name="as_eq" value=""></td>
+          <td class="col-lg-3">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+        </tr>
+
+        <tr class="row">
+          <td class="col-lg-3 col-sm-6">numbers ranging from:</td>
+          <td class="col-lg-6 col-sm-6"><input type="text" name="" value=""></td>
+          <td class="col-lg-3">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</td>
+        </tr>
+
+      </table><br><br>
+        <center>
+          <button type="submit" name="search" style="background:blue;color:white;">Advanced Search</button>
+        </center>
+        <hr>
+    </form>
+    </div>
+  </body>
+</html>

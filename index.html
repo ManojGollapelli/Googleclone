@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOOGLE</title>
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="icon.ico">
+  <!-- internal css -->
+  <style>
+    /* css starts here */
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .nav {
+      text-align: right;
+    }
+
+    .nav ul {
+      list-style-type: none;
+    }
+
+    .nav a {
+      text-decoration: none;
+    }
+
+    .nav li {
+      display: inline-block;
+      padding: 0.6%;
+    }
+
+
+    /* google body */
+    .body {
+      margin-top: 7.6%;
+    }
+
+
+    /* laptops */
+    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+      input[type="search"] {
+        width: 32%;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, .7);
+        margin: 0;
+        padding: 0;
+        color: rgba(0, 0, 0, .87);
+      }
+    }
+
+    input[type="submit"],
+    input[type="button"] {
+      padding: 0.5%;
+    }
+
+    input {
+      font: 16px arial, sans-serif;
+      line-height: 34px;
+      height: 34px;
+    }
+
+    input[type="search"] {
+      height: 30px;
+      margin-top: 2.3%;
+      margin-bottom: 1%;
+
+    }
+
+    @media(max-width:600px) {
+      .search {
+        width: 70%;
+      }
+    }
+
+    input {
+      margin-right: 1%;
+    }
+
+    .lang a {
+      padding: 5px;
+      text-decoration: none;
+      margin: 2px;
+    }
+
+    input[type="search"]:hover {
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      border-bottom: 2px solid blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <li><a class="all" href="index.html" style="border-bottom: 2px solid blue;">ALL</a></li>
+      <li><a class="img" href="images.html">IMAGES</a></li>
+      <li><a class="advanced" href="advanced.html">ADVANCED</a></li>
+      <li><a href="#">
+          <font id="menu">&#9776</font>
+        </a></li>
+    </ul>
+  </div>
+
+  <center>
+    <div class="body">
+      <img class="body-image" src="google.png" alt="google" height="92" width="272">
+      <form class="form" action="https://google.com/search" method="get">
+        <input class="search" type="search" name="q" style="width:50%;max-width:355px;">
+        <br>
+        <input type="submit" name="" value="Google search">
+        <a href="https://www.google.com/history/"><input type="button" value="I'm Feeling Lucky"></a>
+      </form>
+      <br><br><br>
+      <div class="lang">
+        google offer in:
+        <a href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwit5M60hdHpAhXEmeYKHVKkDFIQ2ZgBCBw"
+          target="_blank">हिन्दी</a>
+        <a href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwip3v64i9HpAhU07XMBHZ-pCN0Q2ZgBCBg"
+          target="_blank">বাংলা</a>
+        <a href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjYuOCajNHpAhVTyDgGHZb_AWEQ2ZgBCCE"
+          target="_blank">ગુજરાતી</a>
+        <a
+          href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwj-3v7KjdHpAhU-IbcAHa2CCqsQ2ZgBCB8">
+          ਪੰਜਾਬੀ</a>
+        <a
+          href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjpybeejtHpAhViIbcAHfnJDZgQ2ZgBCB4">తెలుగు</a>
+        <a
+          href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjJ2PXPpdTpAhULyDgGHZppBgIQ2ZgBCCI">ಕನ್ನಡ</a>
+        <a
+          href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjJ2PXPpdTpAhULyDgGHZppBgIQ2ZgBCCM">മലയാളം</a>
+        <a
+          href="https://www.google.com/setprefs?sig=0_oi_vPR-AsuDwJirikS_cCr5O-oA%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjJ2PXPpdTpAhULyDgGHZppBgIQ2ZgBCCQ">ਪੰਜਾਬੀ</a>
+      </div>
+  </center>
+  </div>
+</body>
+
+</html>
